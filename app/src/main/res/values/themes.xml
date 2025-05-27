@@ -3,7 +3,21 @@
     <style name="Base.Theme.RegistrationForm" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/purple_gray</item>
+        <item name="colorOnPrimary">@color/cream</item>
+
+        <item name="colorSecondary">@color/muted_red</item>
+        <item name="colorTertiary">@color/lime_green</item>
+
+        <item name="colorSurface">@color/deep_gray_blue</item>
+        <item name="colorOnSurface">@color/light_gray</item>
+
+        <item name="colorSurfaceContainer">@color/slate_gray</item>
+
+
     </style>
 
+
     <style name="Theme.RegistrationForm" parent="Base.Theme.RegistrationForm" />
+
 </resources>

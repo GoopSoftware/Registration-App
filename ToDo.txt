@@ -1,8 +1,9 @@
 ***************************** ToDo *****************************
 
-1. Find registration form xml layout that I like
+X 1. Find registration form xml layout that I like
 
-2. Registration Screen
+
+X 2. Registration Screen
     a. Drop down (spinner) for title
     b. input fields
         - First name
