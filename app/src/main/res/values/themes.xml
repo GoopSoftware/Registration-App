@@ -17,6 +17,20 @@
 
     </style>
 
+    <style name="TextAppearance.App.DropDownItem" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/cream</item>
+    </style>
+
+    <style name="ThemeOverlay.App.ExposedDropdownMenu" parent="">
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.App.DropDownItem</item>
+    </style>
+
+    <style name="Widget.App.ExposedDropdownMenu" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.ExposedDropdownMenu</item>
+        <item name="boxBackgroundColor">@color/deep_gray_blue</item>
+        <item name="hintTextColor">@color/lime_green</item>
+        <item name="endIconTint">@color/lime_green</item>
+    </style>
 
     <style name="Theme.RegistrationForm" parent="Base.Theme.RegistrationForm" />
 

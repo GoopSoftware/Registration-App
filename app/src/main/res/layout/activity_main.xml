@@ -62,14 +62,15 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/menu"
+            style="@style/Widget.App.ExposedDropdownMenu"
             android:hint="Select a Title"
-            android:paddingTop="8dp"
+            android:textColorHint="@color/cream"
             app:startIconDrawable="@drawable/person_20px"
             app:startIconTint="@color/lime_green"
-            android:textColorHint="@color/cream"
+            android:layout_marginTop="8dp"
            >
 
             <AutoCompleteTextView
@@ -77,8 +78,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="none"
-                android:textColor="@color/lime_green"
-                android:textCursorDrawable="@null"
+                android:textColor="@color/cream"
+                android:backgroundTint="@color/lime_green"
+
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
