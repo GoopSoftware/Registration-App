@@ -1,0 +1,19 @@
+***************************** ToDo *****************************
+
+1. Find registration form xml layout that I like
+
+2. Registration Screen
+    a. Drop down (spinner) for title
+    b. input fields
+        - First name
+        - Last name
+        - email
+        - phone number
+        - password
+
+    c. Button on registration screen
+        - moves to summary screen displaying users details
+
+3. Summary Screen
+    d. The user email address and phone number are clickable
+        - launches relevant intent
