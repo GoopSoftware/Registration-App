@@ -7,10 +7,10 @@ An app I created to practice form creation, Material Deisgn 3, and ViewBinding i
 
 Registration Form:
 - First name 
-- last name 
-- email
-- phone number
-- password field
+- Last name 
+- Email
+- Phone number
+- Password field
 
 Summary Screen:
 - Welcome message with conditional logic
