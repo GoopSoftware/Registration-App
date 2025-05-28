@@ -61,27 +61,28 @@
         </com.google.android.material.textfield.TextInputLayout>
 
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/menu"
-            style="@style/Widget.App.ExposedDropdownMenu"
-            android:hint="Select a Title"
-            android:textColorHint="@color/cream"
-            app:startIconDrawable="@drawable/person_20px"
-            app:startIconTint="@color/lime_green"
-            android:layout_marginTop="8dp"
-           >
-
-            <AutoCompleteTextView
-                android:id="@+id/auto_complete_title"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="none"
-                android:textColor="@color/cream"
-                android:backgroundTint="@color/lime_green"
+                android:id="@+id/menu"
+                style="@style/Widget.App.ExposedDropdownMenu"
+                android:hint="Select a Title"
+                android:textColorHint="@color/cream"
+                app:startIconDrawable="@drawable/person_20px"
+                app:startIconTint="@color/lime_green"
+                android:layout_marginTop="8dp"
+               >
 
-                />
+                <AutoCompleteTextView
+                    android:id="@+id/auto_complete_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+
+                    android:textColor="@color/cream"
+                    android:backgroundTint="@color/lime_green"
+
+                    />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -156,7 +157,7 @@
             android:layout_marginTop="24dp">
 
             <Button
-                android:id="@+id/button_okay"
+                android:id="@+id/button_create_account"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Create Account"

@@ -1,5 +1,6 @@
 package com.dzl.registrationform
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import androidx.activity.enableEdgeToEdge
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val titles: Array<String> = arrayOf("None", "Mr.", "Ms", "Mrs", "Jr")
+        val titles: Array<String> = arrayOf("None", "Mr.", "Ms.", "Mrs.", "Jr.")
         val adapter = ArrayAdapter(
             this,
              android.R.layout.simple_list_item_1,
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         )
         binding.autoCompleteTitle.setAdapter(adapter)
 
+        binding.autoCompleteTitle.setText("None", false) // Start the title with none
+
+        binding.buttonCreateAccount.setOnClickListener {
+            onAccountCreate()
+        }
 
 
 
@@ -41,6 +47,11 @@ class MainActivity : AppCompatActivity() {
             binding.editTextPhoneNumber.text.toString(),
             binding.editTextPassword.text.toString()
         )
+
+        val summaryIntent = Intent(this, SummaryActivity::class.java).apply{
+            putExtra("summary", summary)
+        }
+        startActivity(summaryIntent)
 
 
     }
