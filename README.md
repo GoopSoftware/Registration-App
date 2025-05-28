@@ -1,7 +1,6 @@
 # Registration Form App
 
-An app I created to practice form creation in android development. This is also my first app made solely with Kotlin.
-It uses Material Design 3 and data binding
+An app I created to practice form creation, Material Deisgn 3, and ViewBinding in Kotlin.
 
 
 ## Features
