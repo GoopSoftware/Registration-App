@@ -87,7 +87,7 @@ class SummaryActivity : AppCompatActivity() {
             Hi ${returnPrefixTitle()}${intentManager.firstName} ${intentManager.lastName}${returnSuffixTitle()}, 
             
             Thank you for creating an account at Retro Registration Form App. 
-            We are happy to have you as a new member of your community.
+            We are happy to have you as a new member of our community.
         """.trimIndent()
 
         binding.textViewSummaryFirstLastName.text = summary
